@@ -9,7 +9,8 @@
 			}
 		}
 	}
-	
+    
+    // Sets height to wrappers so they looks properly
 	var app = {};
 	app.page = util.get('page');
 	app.wrappers = [util.get('wrapper'), 
