@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+html {
+	background:#666;
+}
+body {
+	width: 960px;
+	position: relative;
+	padding: 0;
+	margin:32px auto;
+	font: 62.5%/1.4 'Droid Sans', Arial, Helvetica, sans-serif;
+}
+
+/* layout */
+
+#page {
+	font-size:1.3em;
+	padding:20px;
+}
+#wrapper-1,
+#wrapper-2 {
+	background: #eee;
+	width: 960px;
+	position: absolute;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+#wrapper-1 {
+	margin-left: -10px;
+	z-index: -2;
+	transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+	-webkit-transform: rotate(-3deg);
+}
+#wrapper-2 {
+	margin-left: 5px;
+	z-index: -1;
+	transform: rotate(4deg);
+	-moz-transform: rotate(4deg);
+	-o-transform: rotate(4deg);
+	-webkit-transform: rotate(4deg);
+}
+#wrapper {
+	position: relative;
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* menu */
+
+#menu {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 15px;
+	border-bottom: 1px dotted #ccc;
+}
+#menu li {
+	display: inline;
+	margin: 0 8px 0 0;
+}
