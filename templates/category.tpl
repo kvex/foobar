@@ -1,4 +1,4 @@
-%rebase base title=category.name, categories=categories
+%rebase base title=category.name, categories=categories, active_category=category
 
 <h1>{{ category.name }}</h1>
 

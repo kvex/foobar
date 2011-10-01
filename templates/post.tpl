@@ -1,4 +1,4 @@
-%rebase base title=post.title, categories=categories
+%rebase base title=post.title, categories=categories, active_category=post.category
 
 <div class="single">
 	<h1>{{ post.title }}</h1>

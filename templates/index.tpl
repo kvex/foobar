@@ -1,4 +1,4 @@
-%rebase base title='Главная', categories=categories
+%rebase base title='Главная', categories=categories, active_category=None
 
 %for post in paginator.object_list():
 	<div class="post">

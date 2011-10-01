@@ -11,6 +11,22 @@ body {
 	font: 62.5%/1.4 'Droid Sans', Arial, Helvetica, sans-serif;
 }
 
+a {
+    color: blue;
+    padding: 0 2px;
+}
+a:hover {
+    color: white;
+    background: blue;
+}
+.active a {
+    color: red;
+}
+.active a:hover {
+    color: white;
+    background: red;
+}
+
 /* layout */
 
 #page {

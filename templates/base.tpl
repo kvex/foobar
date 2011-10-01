@@ -10,7 +10,7 @@
     <div id="wrapper-2"></div>
 	<div id="wrapper">
 		<div id="page">
-			%include inc/categories categories=categories
+			%include inc/categories categories=categories, active_category=active_category
 			%include
 		</div>
 	</div>
