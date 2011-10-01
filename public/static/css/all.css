@@ -15,16 +15,10 @@ a {
     color: blue;
     padding: 0 2px;
 }
-a:hover {
+a:hover,
+.active a {
     color: white;
     background: blue;
-}
-.active a {
-    color: red;
-}
-.active a:hover {
-    color: white;
-    background: red;
 }
 
 /* layout */
@@ -77,4 +71,36 @@ a:hover {
 #menu li {
 	display: inline;
 	margin: 0 8px 0 0;
+}
+
+/* content */
+h1 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+.post-list {
+    overflow: hidden;
+}
+.post {
+    border-top: 1px dashed #ccc;
+    margin: -1px 0 0;
+    padding: 0 0 11px;
+}
+.post h2 {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+.date,
+.category {
+    display: inline;
+}
+.category {
+    border-left: 1px solid #ccc;
+    padding-left: 5px;
+}
+.single h1 {
+    margin-bottom: 0;
+}
+.single .content {
+    margin: 10px 0 0;
 }
